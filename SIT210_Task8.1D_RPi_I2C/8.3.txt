@@ -1,0 +1,17 @@
+
+Firstly, with the device connected and the Pi powered up the “i2cdetect” 
+command should show the device with address 0x23.
+
+As shown on the circuit board, we connect the sensor's GND to one of the 
+GND pins on Raspberry Pi, both of the SDA and SCL to correctsponding pins on Pi, and
+VCC to 3.3 Volts.
+
+
+    The import statements import Python libraries used in the rest of the code including smbus which handles the I2C interface.
+    The “smbus.SMBus(1)” function setups the I2C interface.
+    The “read_i2c_block_data” function is used to read 2 bytes of data from the device using the ONE_TIME_HIGH_RES_MODE variable.
+    The convertToNumber function is then used to convert those 2 bytes of data into a number. The 1.2 value in the calculation is defined in 
+the BH1750 Ambient Light Sensor IC datasheet datasheet.
+
+Finally, as shown in the main function, I set up specific threshold for the light level, so the console could print out 5 categories correspond to
+the current's environment lighting
