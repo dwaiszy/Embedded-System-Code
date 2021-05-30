@@ -1,0 +1,205 @@
+{
+  "uuid": "7590c3d185a6a334fcfc690ab17acfb5",
+  "path": "Offline/Smart-Home",
+  "name": "Smart-Home",
+  "content": "",
+  "created_at": "2021-05-30 20:57:18",
+  "updated_at": "2021-05-30 23:17:33",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "437d030ddc47652bfca0b6925aab6244",
+      "title": "Schematic",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b3dbc7903a934fc5b944384fc78c6e70": 1,
+        "ad077cab6f5543c0a7684bbb7601c08a": 1,
+        "76e42315707a425eb6ed623be19c020c": 1,
+        "b0248eb51e084227889f2cb84eab79c4": 4,
+        "b2a65c545564415e93165180acc6906d": 1,
+        "4727d4f8bde04f61aac47f704a96dc3c": 1,
+        "8afe589ad4034da0a019c39031632610": 1,
+        "666c564568de416db9c66239b7c36106": 1,
+        "cc4460b417c643dfb23316d0ed1da613": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Raspberry Pi Camera Module v2",
+          1,
+          "RASPBERRY PI CAMERA MODULE V2",
+          "U4",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "d9b212a0d9b240b99898c92fcda1285a",
+            "uuid": "8afe589ad4034da0a019c39031632610"
+          }
+        ],
+        [
+          "DH11",
+          1,
+          "DH11",
+          "U2",
+          {
+            "BOM_Manufacturer Part": "New SchematicLib",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "4ab0546292384f0fbefa91e207ad8047",
+            "uuid": "76e42315707a425eb6ed623be19c020c"
+          }
+        ],
+        [
+          "Buzzer",
+          1,
+          "BUZZER",
+          "U5",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "bec89526848548d8af8507bfb3bf806a",
+            "uuid": "666c564568de416db9c66239b7c36106"
+          }
+        ],
+        [
+          "LEDBlue light",
+          1,
+          "LED-SMD_L3.6-W2.9-R-RD",
+          "LED2",
+          {
+            "BOM_Supplier Part": "C69273",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "LEDBlue light",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "8a92f9c87fd34bbb9a07b06487103935",
+            "uuid": "4727d4f8bde04f61aac47f704a96dc3c"
+          }
+        ],
+        [
+          "BH1750FVI-TR",
+          1,
+          "WSOF-6_L2.6-W1.6-P0.50-TL-EP",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ROHM",
+            "BOM_Manufacturer Part": "BH1750FVI-TR",
+            "BOM_Supplier Part": "C78960",
+            "BOM_Paste Type": "Extended Part",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "0f837632ee2c4f1295b837942b89638d",
+            "uuid": "ad077cab6f5543c0a7684bbb7601c08a"
+          }
+        ],
+        [
+          "led Green",
+          1,
+          "LED1206-RD",
+          "LED1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "KENTO",
+            "BOM_Manufacturer Part": "led Green",
+            "BOM_Supplier Part": "C14641",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "3f21a2531f5a413d88c730f61daca683",
+            "uuid": "b2a65c545564415e93165180acc6906d"
+          }
+        ],
+        [
+          "RASPBERRYPI-B+-GPIO",
+          1,
+          "2X20-SHROUDED",
+          "JP1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "8539541cfef64454addecf58c3d352eb",
+            "uuid": "b3dbc7903a934fc5b944384fc78c6e70"
+          }
+        ],
+        [
+          "1k",
+          4,
+          "R0603",
+          "R1,R2,R3,R4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "1bf59dff03ec4233aa077dc7cf0e92a1",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "ultraSonicSensor",
+          1,
+          "ULTRASONIC",
+          "U6",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "4733ef69053a43b29144c37f30268931",
+            "uuid": "cc4460b417c643dfb23316d0ed1da613"
+          }
+        ]
+      ],
+      "updateTime": 1622377941,
+      "createTime": 1622374706,
+      "histories": [],
+      "created_at": "2021-05-30 21:38:26",
+      "updated_at": "2021-05-30 22:32:21"
+    },
+    {
+      "uuid": "b64af3d5b9b367f256ffdc20af65aff6",
+      "puuid": "7590c3d185a6a334fcfc690ab17acfb5",
+      "title": "PCB_Smart-Home_2",
+      "filename": "PCB_Smart-Home_2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "d9b212a0d9b240b99898c92fcda1285a": 1,
+        "4ab0546292384f0fbefa91e207ad8047": 1,
+        "bec89526848548d8af8507bfb3bf806a": 1,
+        "8a92f9c87fd34bbb9a07b06487103935": 1,
+        "0f837632ee2c4f1295b837942b89638d": 1,
+        "3f21a2531f5a413d88c730f61daca683": 1,
+        "1bf59dff03ec4233aa077dc7cf0e92a1": 4,
+        "4733ef69053a43b29144c37f30268931": 1,
+        "8539541cfef64454addecf58c3d352eb": 1
+      },
+      "BOM": [],
+      "updateTime": 1622380044,
+      "createTime": 1622379416,
+      "histories": [],
+      "created_at": "2021-05-30 22:56:56",
+      "updated_at": "2021-05-30 23:07:24"
+    }
+  ],
+  "sort": [
+    "sheet_08785163118509476",
+    "8479b9456dff186f7c5dc0fb258639fd",
+    "437d030ddc47652bfca0b6925aab6244"
+  ],
+  "title": "Smart-Home",
+  "foldername": "Smart-Home",
+  "schfilename": "Smart-Home.json",
+  "schfilemtime": 1622377941674
+}
